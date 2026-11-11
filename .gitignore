@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env / local config
+.env
+.env.local
+.env.dev
+server/.env
+server/.env.local
+
+# Go build / test
+bin/
+dist/
+*.out
+*.test
+coverage.out
+coverage.txt
+
+# Local runtime data
+server/data/
+server/tmp/
+server/staging/
+
